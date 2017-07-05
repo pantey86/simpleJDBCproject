@@ -1,0 +1,16 @@
+1. To  create new TABLE developers in DATABASE trainings:
+
+CREATE TABLE trainings.developers (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL,
+  specialty VARCHAR(50) NOT NULL,
+  salary INT NOT NULL,
+  PRIMARY KEY (id));
+
+2. To add 3 rows about developers:
+
+INSERT INTO trainings.developers (name, specialty, salary) VALUES ('Nick', 'JAVA', '800');
+INSERT INTO trainings.developers (name, specialty, salary) VALUES ('Jack','JAVA', '1800');
+INSERT INTO trainings.developers (name, specialty, salary) VALUES ('John', 'JAVA', '2800');
+
+
